@@ -1,5 +1,5 @@
 {
-    "keyboard_name": "BM40 Hotswap RGB",
+    "keyboard_name": "BM40v2",
     "manufacturer": "KPRepublic",
     "url": "",
     "maintainer": "qmk",
@@ -7,7 +7,7 @@
         "bootmagic": true,
         "mousekey": true,
         "extrakey": true,
-        "rgblight": true,
+        "rgblight": false,
         "rgb_matrix": true,
         "tri_layer": true,
         "console": false,
