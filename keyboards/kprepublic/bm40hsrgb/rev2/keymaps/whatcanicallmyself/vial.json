@@ -2,7 +2,7 @@
     "name": "BM40v2",
     "vendorId": "0x4B50",
     "productId": "0x3430",
-    "lighting": "qmk_rgblight",
+    "lighting": "vialrgb",
     "matrix": {
         "rows": 4,
         "cols": 12
