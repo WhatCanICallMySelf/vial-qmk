@@ -16,3 +16,7 @@ QMK_SETTINGS        = yes
 CONVERT_TO=promicro_rp2040
 
 WPM_ENABLE = yes
+
+SRC +=  ./lib/logo_reader.c \
+        ./lib/keylogger.c \
+        ./keymaps/whatcanicallmyself/layer_state.c
