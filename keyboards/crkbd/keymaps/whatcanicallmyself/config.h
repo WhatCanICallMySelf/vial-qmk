@@ -27,6 +27,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define PERMISSIVE_HOLD // make Tap-hold not horrible
 
+#define SPLIT_LAYER_STATE_ENABLE // enables syncing of the layer state between both halves of the split keyboard
+
 //#define USE_MATRIX_I2C
 #ifdef KEYBOARD_crkbd_rev1_legacy
 #    undef USE_I2C

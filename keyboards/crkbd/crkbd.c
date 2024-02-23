@@ -37,7 +37,8 @@ __attribute__((weak)) const keypos_t PROGMEM hand_swap_config[MATRIX_ROWS][MATRI
 
 oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
     if (!is_keyboard_master()) {
-        return OLED_ROTATION_180; // flips the display 180 degrees if offhand
+        //return OLED_ROTATION_180; // flips the display 180 degrees if offhand
+        return rotation;
     }
     return rotation;
 }

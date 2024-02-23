@@ -111,7 +111,8 @@ void set_keylog(uint16_t keycode, keyrecord_t *record);
 
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {
   if (!is_keyboard_master()) {
-    return OLED_ROTATION_180;  // flips the display 180 degrees if offhand
+    //return OLED_ROTATION_180;  // flips the display 180 degrees if offhand
+    return rotation;
   }
   return rotation;
 }
@@ -121,7 +122,7 @@ bool oled_task_user(void) {
         render_layer_state_image();
         //oled_write(read_keylog(), false);
     } else {
-        //render_layer_state_image();
+        render_layer_state_image();
         //oled_write(read_logo(), false);
         //oled_write(read_keylog(), false);
     }

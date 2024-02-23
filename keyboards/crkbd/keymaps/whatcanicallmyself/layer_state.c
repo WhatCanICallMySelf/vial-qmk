@@ -387,7 +387,6 @@ static const char PROGMEM game[] = {
 };
 
 const char *render_layer_state_image(void) {
-    oled_set_cursor(0, 0);
     switch (get_highest_layer(layer_state)) {
         case 0:
             oled_write_raw_P(layer_0, sizeof(layer_0));
