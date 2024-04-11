@@ -56,3 +56,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
+
+// Pick good defaults for enabling homerow modifiers
+#define TAP_CODE_DELAY 5
+#define TAP_HOLD_CAPS_DELAY 0
+#define BILATERAL_COMBINATIONS
